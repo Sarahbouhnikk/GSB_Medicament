@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_text_denomination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Denomination_du_medicament"
+
+        />
+    <EditText
+        android:id="@+id/edit_text_forme_pharmaceutique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Forme_phamaceutique"
+        />
+    <EditText
+        android:id="@+id/edit_text_titulaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulaire"
+        />
+    <EditText
+        android:id="@+id/edit_text_denomination_substance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Denomination_substance"
+        />
+
+    <Spinner
+        android:id="@+id/action_bar_spinner_liste_deroulante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_rechercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rechercher"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btn_quitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quitter l'application"
+        />
+    <Button
+        android:id="@+id/btn_cle_deconnexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deconnexion"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+
+
+
+
