@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GSB_Medicament"
+rootProject.name = "GSB_medicaments"
 include(":app")
  

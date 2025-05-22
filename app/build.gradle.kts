@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.gsb_medicament"
+    namespace = "com.example.gsb_medicaments"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.gsb_medicament"
+        applicationId = "com.example.gsb_medicaments"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
